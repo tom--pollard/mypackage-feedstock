@@ -3,3 +3,7 @@ github:
 channels:
   targets:
     - [anaconda_channel_name, main]
+provider:
+  linux: travis
+  osx: None
+  win: None
