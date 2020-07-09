@@ -1,1 +1,5 @@
-{}
+github:                         
+  user_or_org: tom--pollard
+channels:
+  targets:
+    - [anaconda_channel_name, main]
