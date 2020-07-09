@@ -7,7 +7,7 @@ language: generic
 
 matrix:
   include:
-    - env: CONFIG=linux_ UPLOAD_PACKAGES=False PLATFORM=linux-64 DOCKER_IMAGE=condaforge/linux-anvil-comp7
+    - env: CONFIG=linux_ UPLOAD_PACKAGES=True PLATFORM=linux-64 DOCKER_IMAGE=condaforge/linux-anvil-comp7
       os: linux
       arch: amd64
 
